@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <title> Bookmark </title>
+    <link rel="shortcut icon" href="images/kisspng-bookmark-computer-icons-sale-sticker-5acc6445658730.8814706115233444534159.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+   
+
+<div class="container-md text-center py-5">
+  <h1 class="fa-3x position-relative text-center"> Bookmarker </h1>
+ 
+  <div class="bookmark-submit py-5 ">
+    <h2 class="py-2 text-center">
+
+
+      <i class="fa-solid fa-bookmark"></i>
+
+      Bookmark your favorite sites 
+
+      <i class="fa-solid fa-bookmark"></i>
+    </h2> 
+
+    <form class="text-start">
+      <div class="mb-4 py-3" > 
+        <label for="name" class="fs-4"> 
+          <i class="fa-solid fa-book-bookmark"></i>
+          Site Name
+        </label>
+        <input  type="text" placeholder="Bookmark Name" class="form-control" id="name">
+      </div>
+      
+      <div class="mb-4 py-2"> 
+        <label for="url" class="fs-4"> 
+          <i class="fa-solid fa-link pe-2"></i>
+          Site URL
+        </label>
+        <input  type="email" placeholder="Website URL" class="form-control" id="url">
+      </div>
+
+    </form>
+    <button onclick="addMark()" id="submitBtn" type="button" class="btn  btn-danger text-center btn-submit px-5"> submit </button>
+
+  </div>
+
+
+<div class="py-5">
+    <table class="table table-borderless text-center  py-5">
+  
+  <thead>
+    <th>Index </th>
+    <th>Website Name</th>
+    <th> Visit </th>
+    <th> Delete </th>
+  </thead>
+
+
+  <tbody id="tableBody"> 
+       <tr>
+      <td> </td>
+      <td>  </td>
+    
+      <td> 
+      </td>
+      <td>
+      </td>
+
+    </tr>   
+  </tbody>
+</table> 
+</div>
+  
+  
+  
+ <div id="boxModal">
+
+
+  <div class="box-conent bg-white  p-3  rounded-2 shadow-lg">
+ 
+ 
+  <div class="w-100 d-flex justify-content-between align-items-center mb-3" >
+    <div class=" d-flex">
+      <span class="rounded-circle me-2 cricle-1"></span>
+      <span class="rounded-circle me-2 cricle-2"></span>
+      <span class="rounded-circle me-2 cricle-3"></span>
+    </div>
+    
+      <i id="closeBtn" class="fa-solid fa-xmark close fs-3"></i>
+    
+  </div>
+ 
+ 
+  <p class=" pb-2 box-content">
+    Site Name or Url is not valid, Please follow the rules below :
+  </p>
+
+<ul class="list-unstyled text-start">
+ 
+  <li class="mb-2 ">
+    <i class="fa-regular fa-circle-right text-danger "></i>
+   Site name must contain at least 3 characters
+
+  </li>
+ 
+  <li>
+    <i class="fa-regular fa-circle-right text-danger "></i>
+    
+    Site URL must be avalid one
+
+ 
+  </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

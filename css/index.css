@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(255, 244, 227);
+}
+h1{
+    font-family: cursive ;
+    margin-bottom: 4rem;
+    font-family:"Pacifico";
+}
+h1::before{
+    content: "";
+    width:20% ;
+    height: 30% ;
+    bottom: 0;
+    position: absolute;
+    background-color: orange;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+h1:hover::before{
+    height: 50%;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+
+.bookmark-submit {
+    border-top: #000000 dotted 3px ;
+    border-bottom: #000000 dotted 3px ;
+
+}
+
+
+.btn-submit{
+    text-align: center ;
+}
+.btn-submit:hover{
+    background-color: rgb(166, 45, 1);
+}
+
+
+
+
+
+
+
+
+#boxModal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.27);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-conent{
+    width: 30%;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cricle-1{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+  .cricle-2{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+
+}
+.cricle-3{
+    background-color: green;
+    height: 30px;
+
+    width: 30px;
+}
+
+#closeBtn{
+    cursor: pointer;
+
+}
+
+.box-content{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
